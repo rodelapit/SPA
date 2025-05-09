@@ -1,6 +1,6 @@
 document.addEventListener('alpine:init', () => {
     Alpine.store('settings', {
-        apiBaseUrl: 'http://127.0.0.1:3383/api/store',
+        apiBaseUrl: 'http://127.0.0.1:3377/api/store',
         appName: 'E-commerce Application'
     });
     
