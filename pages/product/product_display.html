@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diecast Store</title>
+    <title>M GADGETS</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link rel="preload" href="/assets/fonts/icons.woff2" as="font" type="font/woff2" crossorigin>
@@ -511,7 +511,7 @@
             message: null,
             cartCount: 0,
             editMode: false,
-            baseUrl: 'http://172.17.100.14:3377/default',
+            baseUrl: 'http://172.17.100.14:3347/apit2',
             
             async fetchProducts() {
                 try {
@@ -622,7 +622,7 @@
             <div class="ui container">
                 <h2 class="ui header">
                     <i class="shopping bag icon"></i>
-                    <div class="content">DIECAST STORE</div>
+                    <div class="content">M GADGETS</div>
                 </h2>
                 <button class="ui button"
                         x-bind:class="editMode ? 'negative' : 'positive'"

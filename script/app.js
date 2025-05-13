@@ -1,4 +1,4 @@
 Alpine.store("settings", {
-    apiBaseUrl:"http://172.17.100.14:3377/default/api/",  
+    apiBaseUrl:"http://172.17.100.14:3347/apit2/api/",  
     appName: "Ecommerce",  
 });
